@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>InstaPic</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="create.css"></link>
+</head>
+
+<body>
+    <div id="instapic_create">InstaPic</div><br>
+    <div id="create_title">Criar uma conta</div>
+    <div id="have_account">Já tens conta?</div>
+    <div id="open_session">
+        <a href="login.html">Inicia sessão aqui!</a>
+    </div>
+    <div id="form_create">
+        <form action="CRIAR CONTA">
+            <input type="text" id="first_name" placeholder="Primeiro nome">
+            <input type="text" id="last_name" placeholder="Último nome"><br>
+            <input type="text" id="user_name" placeholder="Nome de utilizador"><br>
+            <input type="password" id="password" placeholder="Password"><br>
+            <textarea id="biography" placeholder="Biografia (máx. 160 caracteres)" maxlength="160"></textarea><br><br>
+            <div>
+                <button id="create_button" type="button">Criar</button>
+                <img src="imagens/iniciar.png" id="create_image_default">
+            </div>
+        </form>
+    </div>
+    <img src="imagens/create_image.png" id="create_image">
+    <script type="module" src="../create.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+#instapic_profile {
+    left: 478px;
+    top: 27px;
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+    color: #707070;
+    font-family: 'Noto Sans' sans-serif;
+}
+
+Body {
+    zoom: 80%;
+}
+
+#search_id {
+    width: 250px;
+    height: 40px;
+    left: 860px;
+    top: 50px;
+    position: absolute;
+}
+
+#search_button {
+    width: 40px;
+    height: 40px;
+    left: 1070px;
+    top: 50px;
+    position: absolute;
+}
+
+#home {
+    width: 60px;
+    height: 53px;
+    left: 1293px;
+    top: 31px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#message {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1365px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#notification {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1435px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#profile {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1505px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#logout {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1625px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#button_edit {
+    width: 140px;
+    height: 45px;
+    left: 1213px;
+    top: 211px;
+    position: absolute;
+    font-family: 'Noto Sans' , sans-serif;
+    color: #606060;
+    background-color: #C3C3C3;
+    border-color: #707070;
+    cursor: pointer;
+}
+
+#image-upload-label {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1565px;
+    top: 31px;
+    cursor: pointer;
+}
+
+.image-upload>input {
+    display: none;
+}
+
+#username {
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    left: 600px;
+    margin-top:150px;
+}
+
+#complete_name {
+    position: absolute;
+    font-size: 25px;
+    left: 820px;
+    margin-top: 150px;
+}
+
+#publication_count{
+    position: absolute;
+    font-size: 20px;
+    left: 600px;
+    margin-top: 190px;
+}
+
+#following_count{
+    position: absolute;
+    font-size: 20px;
+    left: 900px;
+    margin-top: 190px;
+}
+
+#biography{
+    position: absolute;
+    font-size: 20px;
+    left:600px;
+    margin-top:250px;
+}
+
+#user-photos {
+    border: 1px;
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 800px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#uploadedImage {
+    width: 800px;
+}
+
+#uploadedImageDescription {
+    height: 50px;
+    width: 792px;
+    font-family: 'Noto Sans' , sans-serif;
+    font-size: 16px;
+}

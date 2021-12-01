@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>InstaPic</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="profile_edit.css">
+    </link>
+</head>
+
+<body>
+
+    <div id="topnav">
+        <div id="instapic_edit">InstaPic</div><br>
+        <form id="search_feed" action="user_results.html">
+            <input type="search" id="search_id" placeholder="Pesquisar">
+            <button id="search_button">&#128269</button>
+        </form>
+        <div id="home">
+            <a href="feed.html">
+                <img src="Imagens/home.png">
+            </a>
+        </div>
+        <div id="message">
+            <a href="">
+                <img src="Imagens/messages.png">
+            </a>
+        </div>
+        <div id="notification">
+            <a href="">
+                <img src="Imagens/notifications.png">
+            </a>
+        </div>
+        <div id="profile">
+            <a href="profile.html">
+                <img src="Imagens/profile.png">
+            </a>
+        </div>
+        <div id="logout">
+            <img src="Imagens/logout.png">
+        </div>
+    </div>
+
+    <div id="profile_edit">
+        <div id="title_edit">Editar Perfil</div>
+    </div>
+    <div id="form_edit">
+        <form action="profile_edit.html">
+            <label for="fname">Primeiro nome</label>
+            <input type="text" id="fname" value="">
+            <label for="lname">Último Nome</label>
+            <input type="text" id="lname" value=""><br>
+            <label for="password">Palavra-passe</label>
+            <input type="password" id="password" value=""><br>
+            <label for="bio">Biografia (máx. 160 caracteres)</label>
+            <textarea id="biography" maxlength="160"></textarea><br>
+            <div id="create">
+                <button id="button_edit">Editar</button>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="../logout.js"></script>
+    <script type="module" src="../profile_edit.js"></script>
+</body>
+
+</html>

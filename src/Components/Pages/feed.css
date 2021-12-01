@@ -1,0 +1,171 @@
+#instapic_feed {
+    left: 478px;
+    top: 27px;
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+    color: #707070;
+    font-family: 'Noto Sans' sans-serif;
+}
+
+Body {
+    zoom: 80%;
+}
+
+#search_id {
+    width: 250px;
+    height: 40px;
+    left: 860px;
+    top: 50px;
+    position: absolute;
+}
+
+#search_button {
+    width: 40px;
+    height: 40px;
+    left: 1070px;
+    top: 50px;
+    position: absolute;
+
+}
+
+#home {
+    width: 60px;
+    height: 53px;
+    left: 1293px;
+    top: 31px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#message {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1365px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#notification {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1435px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#profile {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1505px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#logout {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1569px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#week_favorite {
+    position: absolute;
+    left: 630px;
+    top: 140px;
+    font-size: 20px;
+    font-family: 'Soto Sans' , sans-serif;
+    color:#707070;
+}
+
+#fav1 {
+    border: 1px;
+    width: 60px;
+    height: 53px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#fav2 {
+    border: 1px;
+    width: 60px;
+    height: 53px;
+    left: 75px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#fav3 {
+    border: 1px;
+    width: 60px;
+    height: 53px;
+    left: 150px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#fav4 {
+    border: 1px;
+    width: 60px;
+    height: 53px;
+    left: 225px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#fav5 {
+    border: 1px;
+    width: 60px;
+    height: 53px;
+    left: 300px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#fav6 {
+    border: 1px;
+    width: 60px;
+    height: 53px;
+    left: 375px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#identification {
+    border: 1px;
+    width: 439px;
+    height: 54px;
+    left: 630px;
+    margin-top: 220px;
+    position: absolute;
+}
+
+#photos_feed {
+    border: 1px;
+    width: 439px;
+    height: 600px;
+    left: 630px;
+    margin-top: 268px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#interaction_section {
+    border: 1px;
+    width: 439px;
+    height: 100px;
+    left: 630px;
+    margin-top: 768px;
+    position: absolute;
+}

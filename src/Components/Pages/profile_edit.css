@@ -1,0 +1,128 @@
+#instapic_edit {
+    left: 478px;
+    top: 27px;
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+    color: #707070;
+    font-family: 'Noto Sans' sans-serif;
+}
+
+Body {
+    zoom: 80%;
+}
+
+#search_id {
+    width: 250px;
+    height: 40px;
+    left: 860px;
+    top: 50px;
+    position: absolute;
+}
+
+#search_button {
+    width: 40px;
+    height: 40px;
+    left: 1070px;
+    top: 50px;
+    position: absolute;
+
+}
+
+#home {
+    width: 60px;
+    height: 53px;
+    left: 1293px;
+    top: 31px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#message {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1365px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#notification {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1435px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#profile {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1505px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#logout {
+    width: 60px;
+    height: 53px;
+    position: absolute;
+    left: 1569px;
+    top: 31px;
+    cursor: pointer;
+}
+
+#title_edit {
+    position: absolute;
+    width: 190px;
+    font-size: 32px;
+    left: 650px;
+    top: 200px;
+    font-family: 'Noto Sans' , sans-serif;
+    line-height: 42px;
+    text-align: left;
+    display: block;
+}
+
+#form_edit {
+    position: absolute;
+    height: 500px;
+    width: 156px;
+    font-family: 'Noto Sans' , sans-serif;
+    font-size: 16px;
+    top: 300px;
+    left:650px;
+}
+
+#button_edit {
+    height: 45px;
+    width: 408px;
+    color: white;
+    border-color: #707070;
+    background-color: #3C3C3C;
+    font-size: 16px;
+    font-family: 'Noto Sans' , sans-serif;
+    cursor: pointer;
+}
+
+#biography {
+    width: 400px;
+    height: 100px;
+}
+
+#fname{
+    width: 400px;
+    height: 40px;
+}
+
+#lname{
+    width: 400px;
+    height: 40px;
+}
+
+#password{
+    width: 400px;
+    height: 25px;
+}

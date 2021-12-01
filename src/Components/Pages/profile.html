@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>InstaPic</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="profile.css">
+    </link>
+</head>
+
+<body>
+
+    <div id="instapic_profile">InstaPic</div><br>
+    <div id="topnav">
+        <form id="search_feed" action="user_results.html">
+            <input type="search" id="search_id" placeholder="Pesquisar">
+            <button id="search_button">&#128269</button>
+        </form>
+        <div>
+            <a href="feed.html">
+                <img src="Imagens/home.png" id="home">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="Imagens/messages.png" id="message">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="Imagens/notifications.png" id="notification">
+            </a>
+        </div>
+        <div>
+            <a href="profile.html">
+                <img src="Imagens/profile.png" id="profile">
+            </a>
+        </div>
+        <div class="image-upload">
+            <label for="file-input">
+                <img src="Imagens/upload.png" id="image-upload-label" />
+            </label>
+            <input type="file" id="file-input" />
+        </div>
+        <div>
+            <img src="Imagens/logout.png" id="logout">
+        </div>
+    </div>
+
+    <div id="profile_bio">
+        <div id="profile_biography">
+            <div id="username"></div><br>
+            <div id="complete_name"></div>
+            <div id="publication_count">Fotos: </div>
+            <div id="following_count">A seguir: </div>
+            <div id="biography">Bio: </div>
+        </div>
+        <div id="profile_edit">
+            <a href="profile_edit.html">
+                <button type="button" id="button_edit">Editar Perfil</button>
+            </a>
+        </div>
+
+        <!--Profile photos added in JavaScript-->
+        <div id="profile_feed">
+        </div>
+    </div>
+
+    <!-- Image upload Modal -->
+    <div id="imageUploadModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="" id="uploadedImage">
+            <textarea id="uploadedImageDescription" placeholder="Legenda da imagem (máx. 160 caracteres)" maxlength="160"></textarea>
+            <form id="photo-visibility-dropdown">
+                <select id="visibility-selected">
+                    <option>PUBLIC</option>
+                    <option>FAVORITE</option>
+                    <option>PRIVATE</option>
+                </select>
+            </form>
+            <button type="button" id="submitImage">Upload</button>
+        </div>
+
+    </div>
+
+    <script type="module" src="../logout.js"></script>
+    <script type="module" src="../profile.js"></script>
+    <script type="module" src="../search.js"></script>
+</body>
+
+</html>

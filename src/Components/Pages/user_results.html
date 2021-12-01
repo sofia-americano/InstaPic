@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>InstaPic</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="user_results.css"></link>
+</head>
+
+<body>
+    <div id="instapic_feed">InstaPic</div><br>
+    <div id="topnav">
+        <form id="search_feed" action="user_results.html">
+            <input type="search" id="search_id" placeholder="Pesquisar">
+            <button id="search_button">&#128269</button>
+        </form>
+        <div>
+            <a href="feed.html">
+                <img src="Imagens/home.png" id="home">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="Imagens/messages.png" id="message">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="Imagens/notifications.png" id="notification">
+            </a>
+        </div>
+        <div>
+            <a href="profile.html">
+                <img src="Imagens/profile.png" id="profile">
+            </a>
+        </div>
+        <div>
+            <img src="Imagens/logout.png" id="logout">
+        </div>
+    </div>
+
+    <div id="user_results">
+        <table id="user_results_table">
+            <tr>
+              <th>Utilizadores</th>
+            </tr>
+        </table>
+    </div>
+
+    <script type="module" src="../logout.js"></script>
+    <script type="module" src="../search.js"></script>
+    <script type="module" src="../user_results.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+#instapic_login {
+    width: 153px;
+    left: 880px;
+    top: 86px;
+    position: absolute;
+    margin-top: -5px;
+    font-size: 45px;
+    text-align: left;
+    color: #707070;
+}
+
+Body {
+    zoom: 80%;
+}
+
+#title {
+    left: 500px;
+    top: 170px;
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+#new_user {
+    position: absolute;
+    left: 500px;
+    top: 230px;
+    font-size: 16px;
+    width: 150px;
+    font-weight: bold;
+    font-family: 'Noto Sans' , sans-serif;
+}
+
+#create {
+    left: 700px;
+    top: 230px;
+    width: 200px;
+    position: absolute;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Noto Sans' , sans-serif;
+    color: #587FFF;
+}
+
+#username {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 392px;
+    height: 22px;
+    font-size: 16px;
+    font-family: 'Noto Sans' , sans-serif;
+}
+
+#password {
+    position: absolute;
+    top:350px;
+    left: 500px;
+    width: 392px;
+    height: 22px;
+    font-size: 16px;
+    font-family: 'Noto Sans' , sans-serif;
+}
+
+#login_button {
+    position: absolute;
+    top: 450px;
+    left: 500px;
+    width: 400px;
+    height: 50px;
+    background-color: #3C3C3C;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+#login_image {
+    width: 303.23px;
+    height: 422.65px;
+    position: absolute;
+    left: 1154.237px;
+    top: 200px;
+}
+
+#login_with {
+    position: absolute;
+    width: 400px;
+    height: 180px;
+    left: 500px;
+    top: 500px;
+}
